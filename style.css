@@ -55,6 +55,7 @@ main {
   height: 100px;
   margin-top: 45px;
   border-radius: 50%;
+  /* GitPages bugging */
 }
 
 #navigation-container h2 {
