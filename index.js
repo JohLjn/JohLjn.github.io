@@ -21,3 +21,12 @@ function fadeInContent3() {
 setTimeout(fadeInContent1, 1700);
 setTimeout(fadeInContent2, 2200);
 setTimeout(fadeInContent3, 2700);
+
+document.querySelector("#changeText").addEventListener("click", () => {
+  document.querySelector("#intro-main").textContent = "About";
+
+  document.querySelector("#first-project").style.display = "none";
+  document.querySelector("#second-project").style.display = "none";
+  document.querySelector("#third-project").style.display = "none";
+  document.querySelector("#about-content").style.display = "block";
+});

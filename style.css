@@ -20,22 +20,23 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
   opacity: 0;
   transition: all 1s ease-in-out;
-  height: 100vh;
-  margin-top: 100px;
 }
 
 .main-load {
+  margin-top: 0px;
   opacity: 1;
   transition: all 1s ease-in-out;
-  margin-top: 0px;
 }
 
 #main-container {
   background-color: rgba(178, 182, 182, 0.1);
   width: 60%;
   display: flex;
+  margin-top: 80px;
   height: 700px;
   border-radius: 30px;
   box-shadow: 0px 5px 10px rgb(121, 122, 121);
@@ -98,8 +99,11 @@ main {
   color: rgba(4, 43, 58, 0.8);
 }
 
+#mail-link {
+  margin-top: 3rem;
+}
+
 .bi-envelope-plus-fill {
-  margin-top: 50px;
   font-size: 2.5rem;
   transition: 0.3s ease-in-out;
   color: rgb(13, 14, 14);
@@ -186,6 +190,10 @@ main {
   padding: 25px;
   background-size: contain;
   opacity: 0.9;
+}
+
+#about-content {
+  display: none;
 }
 
 @media (max-width: 1750px) {
