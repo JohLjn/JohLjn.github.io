@@ -177,7 +177,7 @@ main {
 
 .content-container:hover {
   opacity: 0.3;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
   cursor: pointer;
 }
 
@@ -206,7 +206,7 @@ main {
 .about-content-load {
   opacity: 1;
   margin-left: 0px;
-  transition: all .8s ease-in-out;
+  transition: all 0.8s ease-in-out;
   width: 90%;
 }
 
@@ -227,7 +227,7 @@ main {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   font-weight: 500;
-  color: rgb(87, 86, 86);
+  color: #575656;
   letter-spacing: 0.025em;
 }
 
@@ -244,7 +244,7 @@ main {
   opacity: 1;
   margin-top: 40px;
   transition: all 1s ease-in-out;
-  border-top: 1px solid black;
+  border-top: 1px solid #575656;
   padding: 40px 0px;
 }
 
